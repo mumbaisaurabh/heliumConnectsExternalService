@@ -1,138 +1,194 @@
 {
-    "users":
-    [
+    "myData":
+    {
+        "datatable":
         {
-                "datatable": {
-                                "draw": 1,
-                                "recordsTotal": 1,
-                                "recordsFiltered": 1,
-                                "serverSide": false,
-                                "metadata": {
-                                                "2995739688961": {
-                                                                "objectId": "44462.27407.37548.246",
-                                                                "relationshipId": null,
-                                                                "selectable": true
-                                                }
-                                }
-                },
-                "data": {
-                                "objects": {
-                                                "44462.27407.37548.246": {
-                                                                "data": {
-"type": {
-                "type": 16,
-                "editable": false,
-                "values": [{
-                                "value": "Part",
-                                "label": "Part"
-                }]
-},
-"name": {
-                "type": 16,
-                "editable": false,
-                "objectType": "Part",
-                "values": [{
-                                "value": "EV-000001",
-                                "label": "EV-000001"
-                }]
-},
-"revision": {
-                "type": 16,
-                "editable": true,
-                "values": [{
-                                "value": "A",
-                                "label": "A"
-                }]
-},
-"current": {
-                "type": 16,
-                "editable": false,
-                "values": [{
-                                "value": "Create",
-                                "label": "In Work"
-                }]
-},
-"description": {
-                "type": 16,
-                "editable": true,
-                "values": [{
-                                "value": "teste teste  teste  teste",
-                                "label": "teste teste  teste  teste"
-                }]
-},
-"attribute[Weight].dbvalue": {
-                "type": 8,
-                "editable": true,
-                "values": [{
-                                "value": "12.0",
-                                "label": "12.0"
-                }]
-},
-"attribute[Material Category]": {
-                "type": 16,
-                "editable": true,
-                "values": [{
-                                "value": "Metal",
-                                "label": "Metal"
-                }],
-                "options": [{
-                                "value": "Concrete",
-                                "label": "Concrete"
-                }, {
-                                "value": "Glass",
-                                "label": "Glass"
-                }, {
-                                "value": "Metal",
-                                "label": "Metal"
-                }, {
-                                "value": "Plastic",
-                                "label": "Plastic"
-                }, {
-                                "value": "Rubber",
-                                "label": "Rubber"
-                }]
-},
-"owner": {
-                "type": 16,
-                "editable": true,
-                "values": [{
-                                "objectId": "44462.27407.13610.59718",
-                                "userName": "admin_platform",
-                                "fullName": "My company administration user",
-                                "email": "",
-                                "label": "My company administration user",
-                                "value": "admin_platform"
-                }]
-},
-"attribute[Effectivity Date]": {
-                "type": 2,
-                "editable": true,
-                "values": [{
-                                "value": "2022-05-20T00:00:00",
-                                "label": "May 20, 2022"
-                }]
-},
-"attribute[Is Version]": {
-                "type": 1,
-                "editable": true,
-                "values": [{
-                                "value": "FALSE",
-                                "label": "FALSE"
-                }],
-                "options": [{
-                                "value": "FALSE",
-                                "label": "FALSE"
-                }, {
-                                "value": "TRUE",
-                                "label": "TRUE"
-                }]
-}
-                                                                }
-                                                }
-                                },
-                                "relationships": {}
+            "draw": 1,
+            "recordsTotal": 1,
+            "recordsFiltered": 1,
+            "serverSide": false,
+            "metadata":
+            {
+                "2995739688961":
+                {
+                    "objectId": "44462.27407.37548.246",
+                    "relationshipId": null,
+                    "selectable": true
                 }
-}
-
-    ]
+            }
+        },
+        "data":
+        {
+            "objects":
+            {
+                "44462.27407.37548.246":
+                {
+                    "data":
+                    {
+                        "type":
+                        {
+                            "type": 16,
+                            "editable": false,
+                            "values":
+                            [
+                                {
+                                    "value": "Part",
+                                    "label": "Part"
+                                }
+                            ]
+                        },
+                        "name":
+                        {
+                            "type": 16,
+                            "editable": false,
+                            "objectType": "Part",
+                            "values":
+                            [
+                                {
+                                    "value": "EV-000001",
+                                    "label": "EV-000001"
+                                }
+                            ]
+                        },
+                        "revision":
+                        {
+                            "type": 16,
+                            "editable": true,
+                            "values":
+                            [
+                                {
+                                    "value": "A",
+                                    "label": "A"
+                                }
+                            ]
+                        },
+                        "current":
+                        {
+                            "type": 16,
+                            "editable": false,
+                            "values":
+                            [
+                                {
+                                    "value": "Create",
+                                    "label": "In Work"
+                                }
+                            ]
+                        },
+                        "description":
+                        {
+                            "type": 16,
+                            "editable": true,
+                            "values":
+                            [
+                                {
+                                    "value": "teste teste  teste  teste",
+                                    "label": "teste teste  teste  teste"
+                                }
+                            ]
+                        },
+                        "attribute[Weight].dbvalue":
+                        {
+                            "type": 8,
+                            "editable": true,
+                            "values":
+                            [
+                                {
+                                    "value": "12.0",
+                                    "label": "12.0"
+                                }
+                            ]
+                        },
+                        "attribute[Material Category]":
+                        {
+                            "type": 16,
+                            "editable": true,
+                            "values":
+                            [
+                                {
+                                    "value": "Metal",
+                                    "label": "Metal"
+                                }
+                            ],
+                            "options":
+                            [
+                                {
+                                    "value": "Concrete",
+                                    "label": "Concrete"
+                                },
+                                {
+                                    "value": "Glass",
+                                    "label": "Glass"
+                                },
+                                {
+                                    "value": "Metal",
+                                    "label": "Metal"
+                                },
+                                {
+                                    "value": "Plastic",
+                                    "label": "Plastic"
+                                },
+                                {
+                                    "value": "Rubber",
+                                    "label": "Rubber"
+                                }
+                            ]
+                        },
+                        "owner":
+                        {
+                            "type": 16,
+                            "editable": true,
+                            "values":
+                            [
+                                {
+                                    "objectId": "44462.27407.13610.59718",
+                                    "userName": "admin_platform",
+                                    "fullName": "My company administration user",
+                                    "email": "",
+                                    "label": "My company administration user",
+                                    "value": "admin_platform"
+                                }
+                            ]
+                        },
+                        "attribute[Effectivity Date]":
+                        {
+                            "type": 2,
+                            "editable": true,
+                            "values":
+                            [
+                                {
+                                    "value": "2022-05-20T00:00:00",
+                                    "label": "May 20, 2022"
+                                }
+                            ]
+                        },
+                        "attribute[Is Version]":
+                        {
+                            "type": 1,
+                            "editable": true,
+                            "values":
+                            [
+                                {
+                                    "value": "FALSE",
+                                    "label": "FALSE"
+                                }
+                            ],
+                            "options":
+                            [
+                                {
+                                    "value": "FALSE",
+                                    "label": "FALSE"
+                                },
+                                {
+                                    "value": "TRUE",
+                                    "label": "TRUE"
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
+            "relationships":
+            {}
+        }
+    }
 }
