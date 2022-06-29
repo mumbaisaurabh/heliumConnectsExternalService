@@ -1,21 +1,23 @@
 {
-  "users": [
-{
-                "datatable": {
-                                "draw": 1,
-                                "recordsTotal": 1,
-                                "recordsFiltered": 1,
-                                "serverSide": false,
-                                "metadata": {
-                                                "2632814952449": {
-                                                                "objectId": "44462.27407.37548.246",
-                                                                "relationshipId": null,
-                                                                "selectable": true
-                                                }
-                                }
-                },
-                
-}
-
-  ]
+    "users":
+    [
+        {
+            "datatable":
+            {
+                "draw": 1,
+                "recordsTotal": 1,
+                "recordsFiltered": 1,
+                "serverSide": false,
+                "metadata":
+                {
+                    "2632814952449":
+                    {
+                        "objectId": "44462.27407.37548.246",
+                        "relationshipId": null,
+                        "selectable": true
+                    }
+                }
+            }
+        }
+    ]
 }
